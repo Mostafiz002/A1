@@ -6,14 +6,21 @@
   font-style: normal;
 }
 
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* template */
 .container {
-  width: 1140px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
 .siteBG {
-  background: rgb(245, 248, 255);
+  background-color: rgb(245, 248, 255);
 }
 
 /* hero section */
@@ -55,7 +62,7 @@
 
 .logo {
   color: rgb(78, 71, 255);
-  /* font-family: Inter; */
+  font-family: Inter;
   font-size: 2.125rem;
   font-weight: 900;
   line-height: 150%;
@@ -122,4 +129,62 @@
 
 .actionIMG {
   border-radius: 48px;
+}
+
+/* Productive Users Section */
+.userSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 50px 0px 50px 0px;
+  border-radius: 24px;
+  background-color: rgba(78, 71, 255, 0.1);
+  margin-bottom: 116px;
+}
+
+.h3 {
+  color: rgb(37, 36, 50);
+  font-family: Raleway;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 0;
+}
+
+.counter {
+  display: flex;
+  justify-content: space-between;
+  gap: 168px;
+}
+
+.innerCounter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.count {
+  color: rgb(78, 71, 255);
+  font-family: Inter;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 97px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.role {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
