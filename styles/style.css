@@ -5,3 +5,86 @@
   font-weight: normal;
   font-style: normal;
 }
+
+/* template */
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.siteBG {
+  background: rgb(245, 248, 255);
+}
+
+/* hero section */
+
+.header {
+  background-image: url("/asset/Hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-height: 100vh;
+  padding: 0;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 92px 0;
+}
+
+.h1 {
+  color: rgb(37, 36, 50);
+  font-family: Raleway;
+  font-size: 4.063rem;
+  font-weight: 700;
+  line-height: 76px;
+  letter-spacing: 0%;
+  max-width: 905px;
+  text-align: center;
+}
+
+/* nav */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: rgb(78, 71, 255);
+  /* font-family: Inter; */
+  font-size: 2.125rem;
+  font-weight: 900;
+  line-height: 150%;
+  text-align: left;
+}
+
+.btnPrimary {
+  border-radius: 10px;
+  padding: 12px 36px 12px 36px;
+  border: none;
+  background-color: rgb(78, 71, 255);
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btnPrimary:hover {
+  background-color: #f0c410;
+  color: black;
+}
+
+/* action section */
+.actionSection {
+  display: flex;
+  justify-content: center;
+}
