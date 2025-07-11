@@ -268,3 +268,87 @@
   font-size: 16px;
   margin: 0;
 }
+
+/* Let’s Get in Touch section */
+
+.touchSection {
+  display: flex;
+  gap: 115px;
+  align-items: center;
+  margin-bottom: 116px;
+}
+
+.form {
+  width: 50%;
+}
+
+.touchTitle {
+  color: rgb(0, 0, 0);
+  font-size: 97px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 0;
+  width: 50%;
+}
+
+.input {
+  font-family: Inter;
+  width: calc(100% - 44px);
+  height: 44px;
+  background-color: #05060f0a;
+  border-radius: 0.5rem;
+  padding: 0.2rem 1.2rem;
+  margin-bottom: 20px;
+  border: 2px solid transparent;
+  font-size: 1rem;
+  transition: border-color 0.3s cubic-bezier(0.25, 0.01, 0.25, 1) 0s,
+    color 0.3s cubic-bezier(0.25, 0.01, 0.25, 1) 0s,
+    background 0.2s cubic-bezier(0.25, 0.01, 0.25, 1) 0s;
+}
+
+.label {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+  color: #05060f99;
+  transition: color 0.3s cubic-bezier(0.25, 0.01, 0.25, 1) 0s;
+}
+
+.input:hover,
+.input:focus {
+  outline: none;
+  border-color: #05060f;
+}
+
+.input-group:hover .label,
+.input:focus {
+  color: #05060fc2;
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+textarea {
+  height: 135px !important;
+}
+
+.submit {
+  width: 100%;
+}
