@@ -26,7 +26,7 @@
 /* hero section */
 
 .header {
-  background-image: url("/asset/Hero-bg.png");
+  background-image: url("../asset/Hero-bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
